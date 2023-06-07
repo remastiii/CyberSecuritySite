@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pre-header {
+    background-color: #111618;
+    height: 60px;
+    color: #ffffff;
+}
+
+.pre-header {
+    display: flex;
+    align-items: center;
+}
+
+#white-span-bold {
+    font-weight: 700;
+}
+
+#gray-span {
+    color: #acaeaf;
+}
+
+.grey-line {
+    color: #616161;
+}
+
+.pre-header ul {
+    list-style: none;
+}
+
+.pre-header a:hover {
+    text-decoration: underline;
+}
+
+.paragraph {
+    padding-top: 10px;
+}
+
+.secondary-menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: #acaeaf;
+    text-transform: uppercase;
+    padding-top: 10px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.secondary-menu a {
+    color: #acaeaf;
+    text-decoration: none;
+}
+
+.col-md-6 {
+    display: flex;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 50px;
+    color: #acaeaf;
+
+    @media (max-width: 768px) {
+        padding-left: 0;
+    }
+}
+
+.icons a {
+    color: #acaeaf;
+}
+
+.double-link {
+    display: flex;
+    gap: 30px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.post-header .post-header-list li {
+    display: inline-block;
+}
+
+#logo {
+    margin-top: 20px;
+
+    @media (max-width: 768px) {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.post-header-list {
+    margin-top: 30px;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.post-header-list a {
+    color: #616161;
+}
+
+.post-header-list li a {
+    text-decoration: none;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #5c258d, #4389a2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.bigger-font {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .paragraph {
+        margin-bottom: 10px;
+    }
+
+    .secondary-menu {
+        padding-top: 20px;
+    }
+
+    .col-md-6 {
+        padding: 0 20px;
+    }
+}
